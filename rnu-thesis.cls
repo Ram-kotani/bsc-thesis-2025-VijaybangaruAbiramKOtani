@@ -139,9 +139,6 @@
   The Bachelor Paper is written in \textbf{\totalpages} pages and contains
   \textbf{\totaltables} tables,
   \textbf{\totalfigures} figures,
-  \textbf{\totalalgorithms} algorithms,
-  \textbf{\totallistings} listings,
-  \textbf{\totalannexes} annexes, and a list of references with
   \textbf{\totalreferences} sources.
 }
 
@@ -150,9 +147,6 @@
   Bakalaura darbs izstrādāts \textbf{\totalpages} lapaspusēs un ietver
   \textbf{\totaltables} tabulas,
   \textbf{\totalfigures} attēlus,
-  \textbf{\totalalgorithms} algoritmus,
-  \textbf{\totallistings} programmu kodu izdrukas (listings),
-  \textbf{\totalannexes} pielikumus, kā arī literatūras sarakstu ar
   \textbf{\totalreferences} avotiem.
 }
 

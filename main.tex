@@ -1,6 +1,11 @@
 \documentclass{rnu-thesis}
 
+\usepackage{booktabs}
+\usepackage{siunitx}
 \usepackage[protrusion]{microtype}
+\usepackage{tabularx}
+\usepackage{tabularx}
+\renewcommand{\arraystretch}{1.5}
 
 % --- Algorithms (float + pseudocode)
 \usepackage{algorithm}
@@ -57,13 +62,13 @@
 % - Annexes: count appendix chapters after \appendix
 % - References: count entries in your bibliography
 \setthesisscope
-  {XX}% Total pages (count final PDF)
-  {YY}% Total tables (count from List of Tables)
-  {ZZ}% Total figures (count from List of Figures) 
+  {80}% Total pages (count final PDF)
+  {07}% Total tables (count from List of Tables)
+  {05}% Total figures (count from List of Figures)
   {xy}% Total algorithms (count from List of Algorithms)
   {yz}% Total listings (count from List of Listings)
-  {xz}% Total annexes (count appendix chapters)
-  {zx}% Total references (count bibliography entries)
+  {xz}% Total annexes (count appendix chapters) 
+  {30}% Total references (count bibliography entries)
 
 \begin{document}
 
@@ -92,12 +97,7 @@
 \begingroup\let\addcontentsline\relax\listoftables\endgroup
 
 \clearpage
-\begingroup\let\addcontentsline\relax\listofalgorithms\endgroup
 
-\clearpage
-% \begingroup\let\addcontentsline\relax\listoflistings\endgroup
-\begingroup\let\addcontentsline\relax\lstlistoflistings\endgroup
-\clearpage
 
 
 
@@ -108,8 +108,7 @@
 \input{b_chapters/chapter1/chapter1}
 \input{b_chapters/chapter2/chapter2}
 \input{b_chapters/chapter3/chapter3}
-\input{b_chapters/chapter4/chapter4}
-\input{b_chapters/chapter5/chapter5}
+
 
 % ===== Conclusions =====
 \input{b_chapters/x_conclusions/conclusions}
@@ -119,9 +118,7 @@
 
 
 % ===== Appendices =====
-\appendix
-\input{y_backmatter/appendices/appendixA}
-\input{y_backmatter/appendices/appendixB}
+
 
 % ===== Declarations & Acknowledgments (if needed at end) =====
 \input{y_backmatter/declaration}
